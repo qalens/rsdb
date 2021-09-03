@@ -1,0 +1,9 @@
+[profile.dev]
+codegen-units = 4
+
+[workspace]
+members = [
+    "rsdb",
+    "rsdb-postgres",
+    "playground"
+]

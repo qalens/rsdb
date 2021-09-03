@@ -1,8 +1,9 @@
 [package]
-name = "rsdb-postgres"
+name = "rsdb"
 version = "0.0.1"
 authors = ["Atmaram Naik <naik.atmaram@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-
+async-trait = "0.1.51"
+lazy_static = "1.4.0"
