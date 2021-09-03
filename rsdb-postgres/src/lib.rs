@@ -135,7 +135,6 @@ impl rsdb::ResultSet for PResultSet {
 
     async fn next(&mut self) -> bool {
         if let Some(Ok(row))=self.rows.next().await {
-            row.get()
             self.current_row = Option::Some(row);
             true
         } else {
