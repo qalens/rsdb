@@ -1,0 +1,8 @@
+[package]
+name = "rsdb-postgres"
+version = "0.0.1"
+authors = ["Atmaram Naik <naik.atmaram@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
